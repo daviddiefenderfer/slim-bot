@@ -1,4 +1,2 @@
 
-module.exports = {
-    Tokenize: require('./lib/Tokenize')
-};
+module.exports = require('./lib/Tokenize');

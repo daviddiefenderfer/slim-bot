@@ -1,9 +1,19 @@
 {
   "name": "slim-bot",
-  "version": "0.1.1",
-  "description": "",
+  "version": "0.1.2",
+  "description": "Module for adding command features to an input field",
   "main": "index.js",
   "author": "David Diefenderfer",
+  "keywords": [
+    "ES6",
+    "slim",
+    "command",
+    "bot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daviddiefenderfer/slim-bot"
+  },
   "license": "ISC",
   "devDependencies": {
     "rxjs": "^5.0.0-rc.4"
