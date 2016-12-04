@@ -1,0 +1,11 @@
+{
+  "name": "slim-bot",
+  "version": "0.1.1",
+  "description": "",
+  "main": "index.js",
+  "author": "David Diefenderfer",
+  "license": "ISC",
+  "devDependencies": {
+    "rxjs": "^5.0.0-rc.4"
+  }
+}
