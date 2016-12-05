@@ -35,18 +35,29 @@ const inputElement = document.getElementById('input-element');
 
 // Define commands
 const myCommands = {
-    'open': {
-        params: ['path or url'],
-        operation: function(path) {
-            window.open(path);
-        }
-    },
-    'alert': {
-        params: ['message to alert'],
-        operation: function(text) {
-            alert(text);
-        }
-    }
+  'open': {
+      params: ['Enter a URL or path'],
+      operation: function(path) {
+          window.open(path);
+      }
+  },
+  'backgroundColor': {
+      params: ['Enter a hex code'],
+      operation: function(color) {
+          document.body.style.backgroundColor = color;
+      }
+  },
+  'big': {
+      params: [],
+      operation: function() {
+          input.blur();
+          input.classList.add('big');
+          setTimeout(function() {
+            input.classList.remove('big');
+            input.focus();
+          }, 1000);
+      }
+   }
 };
 
 // Instantiate Tokenize
@@ -60,6 +71,6 @@ const slimBot = new Tokenize({
 
 ##Demo
 Play around with the demo
-`git clone git@github.com:daviddiefenderfer/slim-bot.git && cd slim-bot/demo && npm start`
+`git clone https://github.com/daviddiefenderfer/slim-bot.git && cd slim-bot/demo && npm start`
 
 App served at localhost:8080
