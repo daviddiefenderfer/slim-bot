@@ -1,1 +1,5 @@
 .idea
+demo/
+demo/node_modules/
+demo/typings/
+

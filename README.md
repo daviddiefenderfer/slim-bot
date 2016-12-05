@@ -3,7 +3,7 @@
 Module for adding command features to an input field
 
 Attaches an event listener to the provided input element. When prefix is entered,
-input gets `.console-mode` class and starts listening for commands.
+input gets `.console-mode` class and starts listening for commands
 
 ##Installation
 
@@ -57,3 +57,9 @@ const slimBot = new Tokenize({
 });
 
 ```
+
+##Demo
+Play around with the demo
+`git clone git@github.com:daviddiefenderfer/slim-bot.git && cd slim-bot/demo && npm start`
+
+App served at localhost:8080
