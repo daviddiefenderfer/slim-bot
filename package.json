@@ -1,6 +1,6 @@
 {
   "name": "slim-bot",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Module for adding command features to an input field",
   "main": "index.js",
   "author": "David Diefenderfer",
