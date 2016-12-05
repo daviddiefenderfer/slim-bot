@@ -60,6 +60,6 @@ const slimBot = new Tokenize({
 
 ##Demo
 Play around with the demo
-`git clone git@github.com:daviddiefenderfer/slim-bot.git && cd slim-bot/demo && npm start`
+`git clone https://github.com/daviddiefenderfer/slim-bot.git && cd slim-bot/demo && npm start`
 
 App served at localhost:8080
