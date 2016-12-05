@@ -13,7 +13,7 @@ input gets `.console-mode` class and starts listening for commands
 
 HTML
 ```html
-<-- Element to listen to -->
+<!-- Element to listen to -->
 <input type="text" id="input-element" />
 ```
 
