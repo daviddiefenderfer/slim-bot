@@ -2,4 +2,4 @@
 demo/
 demo/node_modules/
 demo/typings/
-
+*.log
