@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
-@keyframes pulse {
-    0% {
-        border-color: #E8DBC5;
-        background: rgba(232,219,197,.01);
-    }
-    50% {
-        border-color: #B185A7;
-        background: rgba(177,133,167,.15);
-    }
-}
+
 
 html, body {
     font-family: 'Varela Round', sans-serif;
@@ -17,35 +8,56 @@ html, body {
 }
 
 body {
-    background-color: #E8DBC5;
+    background: white;
     padding-top: 140px;
+    display: inline-block;
 }
 
 #command-input {
-    background: rgba(232,219,197,.01);
-    border: 1px solid #E8DBC5;
+    background: rgba(0,0,0,.1);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+    outline: 0;
+    border: none;
     border-radius: 5px;
-    box-shadow: 4px 4px 10px -3px #B185A7;
-    color: #8D6B94;
+    font-size: 1em;
+    color: #222;
     display: block;
-    font-size: 22px;
     margin: 0 auto;
-    padding: 10px 12px;
+    padding: 22px 30px;
     width: 400px;
-    transition: background 1.5s;
+    transition: .1s;
 }
 
 #command-input:focus {
     outline: none;
 }
 
-.console-mode {
-    animation-name: pulse;
-    animation-delay: .5s;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+.big {
+  animation: big 1s cubic-bezier(0,0,0,1.2) forwards;
 }
 
-::-webkit-input-placeholder { color:#8D6B94; }
-::-moz-placeholder { color:#8D6B94; }
-:-ms-input-placeholder { color:#8D6B94; }
+@keyframes big {
+  40% {
+    transform: scale(1.2);
+    box-shadow: 0 6px 0 rgba(0,0,0,.2);
+  }
+}
+
+#command-list {
+  margin: 100px auto auto auto;
+  width: 300px;
+}
+
+#command-list ul li {
+  list-style: none;
+  margin-left: -20px;
+}
+
+.console-mode {
+    background: rgba(215,64,70,.5) !important;
+    color: white !important;
+}
+
+::-webkit-input-placeholder { color:#828282; }
+::-moz-placeholder { color:#828282; }
+:-ms-input-placeholder { color:#828282; }
