@@ -1,15 +1,15 @@
-##Slim-bot
+## Slim-bot
 
 Module for adding command features to an input field
 
 Attaches an event listener to the provided input element. When prefix is entered,
 input gets `.console-mode` class and starts listening for commands
 
-##Installation
+## Installation
 
 `npm install slim-bot`
 
-##Usage
+## Usage
 
 HTML
 ```html
@@ -69,7 +69,7 @@ const slimBot = new Tokenize({
 
 ```
 
-##Demo
+## Demo
 Play around with the demo
 `git clone https://github.com/daviddiefenderfer/slim-bot.git && cd slim-bot/demo && npm start`
 
